@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!-- using emmmet short cut "!" to get doctype done -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- bootstrap linked -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+   <!-- google font -->
+   <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+    <!-- styles sheet inked -->
+    <link rel="stylesheet" href="styles.css">
+    <title>TO DO list</title>
+
+</head>
+
+
+<body>
+ 
+    <div class="hero">
+            <div class="container">
+                <h1 class="display-2 text-center">TodoList</h1>
+                <p class= "lead text-center">Good Morning, here are your todo for today!</p>
+                <div class="row">
+                    <form id="form" class="col-lg-6 col-8 mx-auto">
+                        <input class="form-control" placeholder="Enter todo list item" value="">
+                            <span>
+                                <button id="btn" type="button" class="btn btn-primary">Submit</button>
+                            </span>
+                        </div>
+                    </form>
+                </div>
+                <div class="row">
+                    <ul id="list" class="list col-lg-6 col-8 mx-auto"></ul>
+                </div>
+                <div class="row">      
+            <button id="btnClr" type="button" class="btn btn-primary mx-auto btnHide">
+                Clear </button>
+            </div>
+</div>
+</div>
+
+<script src="work.js"></script>
+</body>
+</html>
